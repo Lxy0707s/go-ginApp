@@ -1,0 +1,27 @@
+appName: demo
+version: 1.0
+author: xuanyu.li
+
+server:
+  runMod: "debug"
+  addr: "127.0.0.1:8049"
+  readTimeout: 60
+  writeTimeout: 60
+
+jwtConfig:
+  switch: false
+  appId: "001"
+  appName: "book-store"
+  appSecret: "fn3k45oj4g93jfh62j1d9mvicfjpow408h"
+  appSalt: "bShsS0"
+  jwtUrl: "https://xxx/xxx"
+
+ApiTokens:
+  xxx: {appId: "4501", appToken: "xxx", sourceApp: "Test", aimApp: "BookStore"}
+
+database:
+  driver: "mysql"
+  dbnames: ["demo"]
+  username: "root"
+  password: "admin123"
+  addr: "127.0.0.1:3306"
