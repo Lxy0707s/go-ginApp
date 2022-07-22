@@ -14,7 +14,8 @@ golang 整合Gin框架、graphql
 
  目录结构
 
- ├─.idea
+ ```
+├─.idea
 └─src
     └─main
         ├─app
@@ -83,3 +84,5 @@ golang 整合Gin框架、graphql
                 ├─prof
                 ├─protocoltool
                 └─queue
+ ```
+
